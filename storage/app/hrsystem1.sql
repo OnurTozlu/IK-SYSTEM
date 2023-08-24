@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Anamakine: localhost
--- Üretim Zamanı: 23 Ağu 2023, 20:06:23
+-- Üretim Zamanı: 24 Ağu 2023, 17:00:33
 -- Sunucu sürümü: 10.4.27-MariaDB
 -- PHP Sürümü: 8.2.0
 
@@ -42,16 +42,7 @@ CREATE TABLE `company` (
 --
 
 INSERT INTO `company` (`cname`, `caddress`, `email`, `phone`, `logo`, `web`, `id`) VALUES
-('ipera', 'İncili Sokak 73/19 Etlik Keçiören Ankara', 'sa@asdasd.com', '05310110996', 0x696e6469722e706e67, '123213.com', 13),
-('qweqrqeewrwer', 'İncili Sokak 73/19 Etlik Keçiören Ankara', 'admin@admin.co', '05310110991', '', '123213213321.com', 14),
-('asdasd', 'İncili Sokak 73/19 Etlik Keçiören Ankara', 'aw@asdsad.com', '05310110993', '', '123213213321.com', 15),
-('microsoft', 'İncili Sokak 73/19 Etlik Keçiören Ankara', 'sa@asdasd.com', '05310110994', '', '123213.com', 16),
-('SDA', 'İncili Sokak 73/19 Etlik Keçiören Ankara', 'aw@asdsad.com', '05310110996', '', '131313.com', 17),
-('qweqrqeewrwer', 'İncili Sokak 73/19 Etlik Keçiören Ankara', 'onuryozlu06@gmail.com', '05310110996', '', '123213', 18),
-('microsoft', 'İncili Sokak 73/19 Etlik Keçiören Ankara', 'admin@admin.co', '05310110992', '', '123213.com', 20),
-('qweqrqeewrwer', 'İncili Sokak 73/19 Etlik Keçiören Ankara', 'aw@asdsad.com', '05310110996', '', '123213213321.com', 21),
-('qweqrqeewrwer', 'İncili Sokak 73/19 Etlik Keçiören Ankara', 'aw@asdsad.com', '05310110996', '', '123213', 22),
-('SDA', 'İncili Sokak 73/19 Etlik Keçiören Ankara', 'sa@asdasd.com', '05310110996', '', '123213.com', 23);
+('İpera', 'İncili Sokak 73/19 Etlik Keçiören Ankara', 'sa@asdasd.com', '0 212 267 41 28', '', 'ipera.ai', 13);
 
 --
 -- Dökümü yapılmış tablolar için indeksler
@@ -71,7 +62,7 @@ ALTER TABLE `company`
 -- Tablo için AUTO_INCREMENT değeri `company`
 --
 ALTER TABLE `company`
-  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Anamakine: localhost
--- Üretim Zamanı: 23 Ağu 2023, 20:06:13
+-- Üretim Zamanı: 24 Ağu 2023, 17:00:27
 -- Sunucu sürümü: 10.4.27-MariaDB
 -- PHP Sürümü: 8.2.0
 
@@ -41,8 +41,7 @@ CREATE TABLE `employee` (
 --
 
 INSERT INTO `employee` (`fname`, `lname`, `email`, `phone`, `company`, `id`) VALUES
-('Onur', 'Tozlu', 'onuryozlu06@gmail.com', '05310110996', 'ipera', 14),
-('Selim', 'tozlu', 'selimtzl@gmail.com', '05310110999', 'onurprogrmaları', 15);
+('Onur', 'Tozlu', 'onuryozlu06@gmail.com', '05310110996', '', 14);
 
 --
 -- Dökümü yapılmış tablolar için indeksler
