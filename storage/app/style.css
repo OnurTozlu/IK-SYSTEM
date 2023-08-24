@@ -1,0 +1,16 @@
+.navbar {
+    background-color: #052757 !important;
+}
+.nav-link {
+    color: white !important;
+}
+.navbar-brand {
+    color: white !important;
+}
+.nav-link:hover {
+    color: rgb(117, 117, 117) !important;
+}
+.table1 {
+    position: relative; top:100px;
+}
+
